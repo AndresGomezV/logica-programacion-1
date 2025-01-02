@@ -47,6 +47,7 @@ function analyzeNumbers(arr1) {
     let maxNum = Math.max(...arr1);
     let minNum = Math.min(...arr1);
     let midNum = num1 + num2 + num3 - maxNum - minNum;
+    
 
     arr1.sort((a, b) => b - a);
     console.log(arr1)
