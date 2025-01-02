@@ -70,7 +70,7 @@ function hasDuplicates(numbers) {
     for (let i = 0; i < numbers.length; i++) {
         for (let j = i + 1; j < numbers.length; j++) {
             if (numbers[i] === numbers[j]) {
-                console.log("Hay números repetidos");
+                console.log("El valor que se repite es el:", numbers[j]);
                 return;
             }
         }
